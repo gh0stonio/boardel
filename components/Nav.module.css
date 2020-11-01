@@ -1,0 +1,11 @@
+.nav {
+  @apply flex justify-between items-center bg-background p-8;
+}
+
+/* Internal app links */
+.internalLinks {
+  @apply flex justify-between items-center;
+}
+.internalLink {
+  @apply text-font-link no-underline;
+}
